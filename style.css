@@ -1,0 +1,89 @@
+body {
+    background-color: white;
+}
+
+/*This is the main area of the browser, and I wanted it to be compact in the center to make it easier to read.*/
+main {
+	width:60%;
+	margin: 0 auto;
+}
+/*This just defines the separation between the different rows*/
+section {
+  clear: both;
+}
+
+img {
+	border: solid 5px black;
+}
+
+p {
+	text-align: left;
+}
+
+aside {
+	float: left;
+	border: solid 0px black;
+	width: 70%;
+}
+
+
+
+h1 {
+    color: black;
+    text-align: center;
+    font-family: times new roman;
+    font-size: 60px;
+}
+
+h2 {
+    color: #1C2833;
+    text-align: center;
+    font-family: times new roman;
+    font-size: 30px;
+    font-style: italic;
+}
+
+h3 {
+    color: #1C2833;
+    text-align: left;
+    font-family: times new roman;
+    font-size: 25px;
+}
+
+h4 {
+    color: #black;
+    text-align: left;
+    font-family: times new roman;
+    font-size: 20px;
+}
+
+h5 {
+    color: #1C2833;
+    text-align: left;
+    font-family: times new roman;
+    font-size: 25px;
+}
+
+h6 {
+	color: black;
+	text-align: left;
+	font-family: times new roman;
+	font-size: 25px;
+	
+}
+
+p {
+  color: #333;
+  font-size: 18px;
+  font-family: arial;
+  vertical-align: top;
+  padding: 0 20px;
+}
+
+/* Note that the footer row is also cleared beneath both columns */
+footer {
+  clear: both;
+  text-align: center;
+}
+
+
